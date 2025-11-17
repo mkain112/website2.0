@@ -46,6 +46,9 @@ The robot will handle everything from opening moves to checkmates — with the h
 
 ## Design Overview
 
+![Abandoned attempt to train a tortoise to play chess](/assets/chess/1design/IMAG02802.jpg){: .right}
+Since I was forced to abandon my attempts to train a tortoise to play chess, I will have to build a robot instead, since my cats are not interested.
+
 The robot will use a **CNC-style XY gantry** with an end effector that slides over the board surface. Each square will be equipped with some kind of sensor, wired in a matrix or multiplexed configuration to minimize pin count. Currently investigating the pros and cons of reed switches RFID tags and hall effect sensors. I may also revisit my chess computer vision algorithm, but we'll call that a stretch goal (as is the post about it).
 
 ## Sensor Comparison: Reed vs. RFID vs. Hall Effect
