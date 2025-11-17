@@ -7,7 +7,7 @@ tags: [Chess, Sensors, Electronics, Arduino, CNC,  GRBL, Gcode, Universal Gcode 
 image:
   path: "/assets/chess/4elec/googlydemo_cropped.gif"
   alt: "THE GOOGLY EYES ARE EVERYTHING"
-pin: false
+pin: true
 ---
 
 > **Work in Progress — Basic Electronics**  
@@ -70,19 +70,6 @@ about $78 plus tax.
 ## Universal Gcode Sender
 ![UGSlogo](/assets/chess/4elec/UGSlogo.png){: .right} 
 Of the Multitude of different methods of interfacing with the Arduino the most straight forward I've found so far with the most features and customization options, to use until I build my own python or ROS2 pipeline. It can import images and convert them to Gcode, which is the next step on the road. In order to get everything dialed in and make sure the structure can stand up to the movement in terms of things like rigidity and vibration. 
-
-### Tuning
-
-As part of the setup we need to tell the motors to move a set amount and compare that to what actually happens. I did this by zip tying a pencil to the X-Axis carriage and putting a ruler underneath it to see the actual distance moved. 
-
-### Features
-
-- Convert images to SVG and Gcode for the machine 
-  - Takes into account the specific machines envelope
-- I can make it controlled by a joystick IMPORTANT
-- Large display of movement info for testing
-- Control for pen up and down commands
-- Support for hard endstops
 
 ---
 
